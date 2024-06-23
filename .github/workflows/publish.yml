@@ -11,6 +11,6 @@ jobs:
       uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: blakadder/docker-tasmota
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+        username: ${{ gincso0808 }}
+        password: ${{ !Admin2020 }}
         platforms: linux/amd64,linux/arm64
